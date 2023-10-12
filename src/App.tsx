@@ -1,12 +1,17 @@
 import { useState } from "react";
 import "./App.css";
+import Nabvar from "./components/navbar";
+import Hero from "./components/hero";
+import Body from "./components/body";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="font-bold flex justify-center">HELLO WORLD</div>
+      <Nabvar />
+      <Hero />
+      <Body />
     </>
   );
 }
